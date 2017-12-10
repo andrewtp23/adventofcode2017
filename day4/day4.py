@@ -34,7 +34,7 @@ def day4(text):
 def is_anagram(input1, input2):
     return Counter(input1) == Counter(input2)
 
-def day4(text):
+def day4b(text):
     f = open(text)
     correct = 0
     line = f.readline()
